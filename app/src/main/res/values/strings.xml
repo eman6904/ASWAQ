@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ASWAQ</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aswaq">أسواق</string>
+    <string name="st1">في أسواق خضارك بلمسة زر ومنتجاتك في مكان واحد</string>
+    <string name="f1">فاكهة</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="far">مزارع</string>
+    <string name="mm">منشأة عامة</string>
+    <string name="tt">تاجر تجزئة</string>
+    <string name="next">التالي</string>
+    <string name="frm">مزارع</string>
+    <string name="se1">🍓خدمات مالية</string>
+    <string name="se2">🍓خدمات فنية</string>
+    <string name="se3">🍓خدمات تسويقية</string>
+    <string name="fr2">فاكهة</string>
+    <string name="ve3">خضار</string>
+    <string name="gg">تجهيز</string>
+    <string name="mn">منشأة عامة</string>
+    <string name="vee">خضار</string>
+    <string name="frui">فاكهة</string>
+    <string name="ta">تاجر تجزئة</string>
+    <string name="item">بطيخ</string>
+    <string name="ass">اسواق تختصر عليك الطريق وتلبي حاجتك بلمسة زر</string>
+    <string name="string">المنتجات المطلوبة</string>
+</resources>

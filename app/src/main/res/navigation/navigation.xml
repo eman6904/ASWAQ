@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/interface1">
+
+    <fragment
+        android:id="@+id/display"
+        android:name="com.example.aswaq.ui.Display"
+        android:label="fragment_display"
+        tools:layout="@layout/fragment_display" />
+    <fragment
+        android:id="@+id/interface1"
+        android:name="com.example.aswaq.ui.Interfacee"
+        android:label="Interface" >
+        <action
+            android:id="@+id/action_interface1_to_logIn"
+            app:destination="@id/logIn" />
+    </fragment>
+    <fragment
+        android:id="@+id/logIn"
+        android:name="com.example.aswaq.ui.LogIn"
+        android:label="LogIn" >
+        <action
+            android:id="@+id/action_logIn_to_monshaa_Fragment"
+            app:destination="@id/monshaa_Fragment" />
+        <action
+            android:id="@+id/action_logIn_to_tager_Fragment"
+            app:destination="@id/tager_Fragment" />
+        <action
+            android:id="@+id/action_logIn_to_mazarieFragment"
+            app:destination="@id/mazarieFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mazarieFragment"
+        android:name="com.example.aswaq.ui.MazarieFragment"
+        android:label="fragment_mazarie_"
+        tools:layout="@layout/fragment_mazarie_" >
+        <action
+            android:id="@+id/action_mazarieFragment_to_display"
+            app:destination="@id/display" />
+    </fragment>
+    <fragment
+        android:id="@+id/monshaa_Fragment"
+        android:name="com.example.aswaq.ui.Monshaa_Fragment"
+        android:label="fragment_monshaa_"
+        tools:layout="@layout/fragment_monshaa_" >
+        <action
+            android:id="@+id/action_monshaa_Fragment_to_display"
+            app:destination="@id/display" />
+    </fragment>
+    <fragment
+        android:id="@+id/tager_Fragment"
+        android:name="com.example.aswaq.ui.Tager_Fragment"
+        android:label="fragment_tager_"
+        tools:layout="@layout/fragment_tager_" >
+        <action
+            android:id="@+id/action_tager_Fragment_to_display"
+            app:destination="@id/display" />
+    </fragment>
+</navigation>
